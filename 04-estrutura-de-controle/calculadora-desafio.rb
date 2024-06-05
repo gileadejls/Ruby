@@ -9,4 +9,15 @@ loop do
   puts"Digite o segundo valor: "
   v2 = gets.chomp.to_f
 
+  case operacao
+    when 0
+      puts "#{v1} + #{v2} = #{v1+v2}"
+    when 1
+      puts "#{v1} - #{v2} = #{v1-v2}"
+    when 2
+      puts "#{v1} / #{v2} = #{v1/v2}"
+    when 3
+      puts "#{v1} x #{v2} = #{v1*v2}"
+  end
+
 end
