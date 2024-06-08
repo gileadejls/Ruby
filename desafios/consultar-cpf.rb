@@ -12,7 +12,7 @@ loop do
   #verificando cpf
   for n in numfinal[0..-3].chars
     soma += n.to_i * contador
-    contador -= 1
+    contador -= 1cd ..contador
   end
 
   #verificar primeiro digito
